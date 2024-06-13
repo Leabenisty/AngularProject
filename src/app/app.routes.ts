@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { RouterModule, Routes } from '@angular/router';
 import { CustomerScreenComponent } from './Components/Customers/customer-screen/customer-screen.component';
 import { OrderScreenComponent } from './Components/Orders/order-screen/order-screen.component';
@@ -23,3 +24,8 @@ export const routes: Routes = [
         exports: [RouterModule]
       })
       export class AppRoutingModule { }
+=======
+import { Routes } from '@angular/router';
+
+export const routes: Routes = [];
+>>>>>>> origin/master

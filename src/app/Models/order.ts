@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { OrderProduct } from "./order-product";
 import { Product } from "./product";
 
@@ -8,3 +9,11 @@ export class Order {
 }
 
 export { OrderProduct };
+=======
+import { Product } from "./product";
+
+export class Order {
+    public customerId !: number;
+    public products !: Product;
+}
+>>>>>>> origin/master
